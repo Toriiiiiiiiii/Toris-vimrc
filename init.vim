@@ -88,5 +88,6 @@
 	Plug 'christoomey/vim-tmux-navigator'	" Easily navigate between vim windows & tmux panes
 	Plug 'tpope/vim-fugitive'				" Git integration
 	Plug 'fcpg/vim-altscreen'				" Stops commands outputting to stdout
+	Plug 'Toriiiiiiiiii/vim-com'			" Emacs-Style compile command for vim -- Custom plugin made by me :D
 	
 	call plug#end()
