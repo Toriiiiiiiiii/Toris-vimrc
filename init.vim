@@ -55,6 +55,10 @@
 	nmap <leader><leader> :Ex<cr>
 	nmap <leader><cr> :nohlsearch<cr>
 	
+	" Run compile command (vim-com)
+	nmap <leader>s :SetCom 
+	nmap <leader>c :Com<cr>
+	
 	" Tab management
 	nmap <leader>t :tabe<cr>
 	nmap <leader>l :tabnext<cr>
@@ -65,6 +69,17 @@
 	map <C-j> <C-W>j
 	map <C-k> <C-W>k
 	map <C-l> <C-W>l
+
+	" Optional stuff for improving at vim
+	" Disable h + l keys to force wordwise navigation, instead of by character
+	map h <nop>
+	map l <nop>
+
+	" Disable arrow keys
+	map <Left> <nop>
+	map <Right> <nop>
+	map <Up> <nop>
+	map <Down> <nop>
 	
 	" Don't overwrite register when pasting yanked text
 	xnoremap p P
